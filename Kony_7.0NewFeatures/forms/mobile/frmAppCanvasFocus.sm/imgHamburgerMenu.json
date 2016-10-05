@@ -1,0 +1,56 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "_srcKuid_": "4830bd0974954617af44f528e6079321",
+    "areFlexPropsReferenced": true,
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "centerY": "50%",
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "id": "imgHamburgerMenu"
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "45dp",
+    "id": "imgHamburgerMenu",
+    "ide_onTouchEnd": "AS_Image_53317d6629bc45838dd8b4e2c039b878",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "instanceOf": "4830bd0974954617af44f528e6079321",
+    "isDataReferenced": true,
+    "isVisible": true,
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m9b6c78a9c7644f08b3d5f3bb389936e",
+    "left": "10dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "onTouchEnd": "AS_Image_53317d6629bc45838dd8b4e2c039b878",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexHeader",
+    "pf": "frmAppCanvasFocus",
+    "skin": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "src": "menu.png",
+    "top": "0dp",
+    "wType": "Image",
+    "width": "40dp"
+}

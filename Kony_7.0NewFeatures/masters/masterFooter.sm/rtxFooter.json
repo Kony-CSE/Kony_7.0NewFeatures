@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        1,
+        1,
+        0,
+        2
+    ],
+    "_skin_": "se880e98576247c5affdedc89783aa8a",
+    "_text_": "© Copyright 2015 Kony, Inc. All rights reserved. ",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "childInstances": [
+        "mb881b4232a84bed80bf3454b81fb78b",
+        "mad05755bd3e4c15b1b854f0e64281ee",
+        "me7e70df516345268ec3df6dc53dcb5a",
+        "m64f31ae88cd4802ac1f724ad3193e25",
+        "m9f3fe18123248bc8548e79cc6483258",
+        "mefd09c224bb42898afe6496619b6d44",
+        "mea714e891ef44339452a9b2e14f16eb"
+    ],
+    "containerweight": 100,
+    "contentalignment": 7,
+    "id": "rtxFooter",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f6d8b3cd8b2d4ba5ae29969a3021fab4",
+    "name": "kony.ui.RichText",
+    "parent": "flexFooter",
+    "pf": "masterFooter",
+    "wType": "RichText",
+    "widgetalignment": 5
+}

@@ -1,0 +1,59 @@
+{
+    "AS_Segment_2e556285282a4e1b8ee6897e30aaa2bc": {
+        "id": "AS_Segment_2e556285282a4e1b8ee6897e30aaa2bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmCamera",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a3dd2ee9cfe64c4a92c57be3b8e2a433"
+        },
+        "sourceObj": {
+            "itemKUID": "507619e5e9bc4ab494dec0dadec0bc0c",
+            "widgetKUID": "b158cd12c5b7404ab528fe811d636545",
+            "evt": "onRowClick",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____2a80cd6cb8414eeb9d9ddc385e127c59",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "display": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }, {
+            "id": "IF_CONDITION__924b309ad43b4dc1b12e27dc7ed6baab",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmCamera.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Dashboard\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM___69098143ffa843c598a1fe00db6a431b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboard",
+            "formKUID": "0cc2db47bf7c4c11b8fc5efe5c1f3037",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION__924b309ad43b4dc1b12e27dc7ed6baab",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

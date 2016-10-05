@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6a6e4341acd4587ab35e918a42d73e5",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "childInstances": [
+        "m5f353fdeaf945cb811ecaafda134744",
+        "m7c449cbef73411f81ccfe2b65b3c4e0",
+        "mefeb2d1bbf345bd976e64ef612880dc",
+        "m1b76c2b51bc4635b7c7f5d97dcab1f9",
+        "md19570242544a79b9f0f1c2823c2eea",
+        "mbea06c666094ae1b9cfff8197462c79",
+        "m3e88f9bb4ab4f3b8be3f5cd39994183"
+    ],
+    "children": [
+        "imgHamburgerMenu",
+        "imgLogo"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flexHeader",
+    "info": null,
+    "isvisible": true,
+    "kuid": "mf1c950c225c4591acb1f317be78907d",
+    "layouttype": 2,
+    "masterTopLevelFlex": true,
+    "name": "kony.ui.FlexContainer",
+    "parent": "masterHeader",
+    "pf": "masterHeader",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

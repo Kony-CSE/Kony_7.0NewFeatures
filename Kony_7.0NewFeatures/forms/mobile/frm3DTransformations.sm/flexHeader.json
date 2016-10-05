@@ -1,0 +1,69 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6a6e4341acd4587ab35e918a42d73e5",
+    "_srcKuid_": "mf1c950c225c4591acb1f317be78907d",
+    "autogrowMode": 0,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "imgHamburgerMenu",
+        "imgLogo"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "height": {
+            "type": "string",
+            "value": "10%"
+        },
+        "id": "flexHeader",
+        "left": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "10%",
+    "id": "flexHeader",
+    "instanceOf": "mf1c950c225c4591acb1f317be78907d",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "md19570242544a79b9f0f1c2823c2eea",
+    "layoutType": 2,
+    "layouttype": 2,
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexMainContent",
+    "pf": "frm3DTransformations",
+    "skin": "s6a6e4341acd4587ab35e918a42d73e5",
+    "top": "0dp",
+    "wType": "FlexContainer",
+    "width": "100%"
+}

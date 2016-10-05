@@ -1,0 +1,123 @@
+{
+    "AS_Segment_f12ad7f79eba439b8b100fbaf25e4104": {
+        "id": "AS_Segment_f12ad7f79eba439b8b100fbaf25e4104",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frm3DTransformations",
+            "type": "forms",
+            "platform": null,
+            "KUID": "5f3dec967cc045ee84d608adf3085344"
+        },
+        "sourceObj": {
+            "itemKUID": "507619e5e9bc4ab494dec0dadec0bc0c",
+            "widgetKUID": "b158cd12c5b7404ab528fe811d636545",
+            "evt": "onRowClick",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____9432b0ea7ede4b4fac68b13effc29cf7",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "display": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }, {
+            "id": "IF_CONDITION__a616ec7bcd514c2f928b50dc4c308e23",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frm3DTransformations.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Dashboard\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__def1ca989c4345748c9faf988cdaa0f3",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frm3DTransformations.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Rotate on x-axis\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__86b0dad8bb784fcaa146500dc8694efc",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frm3DTransformations.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Rotate on y-axis\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__367792993ae14a16b1895109847c4a02",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frm3DTransformations.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Move on z-axis\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__43a32b3308b0476a96f504c601dcb20d",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frm3DTransformations.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Scale on z-axis\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__139243a197cd46ed84a55dbd6ccc098f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var transformObject= kony.ui.makeAffineTransform();\ntransformObject.setPerspective(500);\ntransformObject.rotate3D(140,1,0,0);\nvar animationObject = kony.ui.createAnimation({\"0\":{\"left\":\"0dp\",\"top\":\"0dp\",\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}},\"100\":{\"transform\":transformObject,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}}});\nvar animationConfig = {duration:5,iterationCount:2,\"direction\":kony.anim.DIRECTION_ALTERNATE,fillMode: kony.anim.FILL_MODE_NONE};\nvar animationCallbacks = {\"animationEnd\":function(){kony.print(\"animation END\")}};\nfrm3DTransformations.flex3DTransformation.animate(animationObject , animationConfig, animationCallbacks);",
+            "parentId": "IF_CONDITION__def1ca989c4345748c9faf988cdaa0f3",
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___eb18cb95836f4e94af7dbd6138878bec",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboard",
+            "formKUID": "0cc2db47bf7c4c11b8fc5efe5c1f3037",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION__a616ec7bcd514c2f928b50dc4c308e23",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_SNIPPET__cf33a1a28c66427e8090eb6b3d82f69e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var transformObject= kony.ui.makeAffineTransform();\ntransformObject.setPerspective(500);\ntransformObject.rotate3D(140,0,1,0);\nvar animationObject = kony.ui.createAnimation({\"0\":{\"left\":\"0dp\",\"top\":\"0dp\",\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}},\"100\":{\"transform\":transformObject,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}}});\nvar animationConfig = {duration:5,iterationCount:2,\"direction\":kony.anim.DIRECTION_ALTERNATE,fillMode: kony.anim.FILL_MODE_NONE};\nvar animationCallbacks = {\"animationEnd\":function(){kony.print(\"animation END\")}};\nfrm3DTransformations.flex3DTransformation.animate(animationObject , animationConfig, animationCallbacks);",
+            "parentId": "IF_CONDITION__86b0dad8bb784fcaa146500dc8694efc",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__92e3206d311940458471f83c216224ea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var transformObject= kony.ui.makeAffineTransform();\ntransformObject.setPerspective(500);\ntransformObject.translate3D(0,0,50);\nvar animationObject = kony.ui.createAnimation({\"100\":{\"transform\":transformObject,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}}});\nvar animationConfig = {duration:5,iterationCount:2,\"direction\":kony.anim.DIRECTION_ALTERNATE,fillMode: kony.anim.FILL_MODE_NONE};\nvar animationCallbacks = {\"animationEnd\":function(){kony.print(\"animation END\")}};\nfrm3DTransformations.flex3DTransformation.animate(animationObject , animationConfig, animationCallbacks);",
+            "parentId": "IF_CONDITION__367792993ae14a16b1895109847c4a02",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__968155824bf04494bd92798c3151251b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var transformObject= kony.ui.makeAffineTransform();\ntransformObject.setPerspective(500);\ntransformObject.scale3D(0,0,50);\nvar animationObject = kony.ui.createAnimation({\"100\":{\"transform\":transformObject,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}}});\nvar animationConfig = {duration:5,iterationCount:2,\"direction\":kony.anim.DIRECTION_ALTERNATE,fillMode: kony.anim.FILL_MODE_NONE};\nvar animationCallbacks = {\"animationEnd\":function(){kony.print(\"animation END\")}};\nfrm3DTransformations.flex3DTransformation.animate(animationObject , animationConfig, animationCallbacks);",
+            "parentId": "IF_CONDITION__43a32b3308b0476a96f504c601dcb20d",
+            "callbackType": null
+        }]
+    }
+}

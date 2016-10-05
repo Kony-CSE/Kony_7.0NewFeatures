@@ -1,0 +1,38 @@
+{
+    "AS_Segment_54727554846b4b2f8b3c26d240da6802": {
+        "id": "AS_Segment_54727554846b4b2f8b3c26d240da6802",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0cc2db47bf7c4c11b8fc5efe5c1f3037"
+        },
+        "sourceObj": {
+            "itemKUID": "507619e5e9bc4ab494dec0dadec0bc0c",
+            "widgetKUID": "b158cd12c5b7404ab528fe811d636545",
+            "evt": "onRowClick"
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____884769952d2b4c2882d7e38cecc7b705",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "display": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

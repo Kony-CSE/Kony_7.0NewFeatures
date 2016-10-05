@@ -1,0 +1,116 @@
+{
+    "AS_Segment_4951ca52ebb74f28b397a6872672fb34": {
+        "id": "AS_Segment_4951ca52ebb74f28b397a6872672fb34",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmSegment",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ac4387ca97914c5b81bddaeb17f4f4c0"
+        },
+        "sourceObj": {
+            "itemKUID": "507619e5e9bc4ab494dec0dadec0bc0c",
+            "widgetKUID": "b158cd12c5b7404ab528fe811d636545",
+            "evt": "onRowClick",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____939162d40c8d43a0899218a54e052d2f",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "display": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject"
+            }, {
+                "datatype": "number",
+                "name": "sectionNumber"
+            }, {
+                "datatype": "number",
+                "name": "rowNumber"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }, {
+            "id": "IF_CONDITION__fe3582f4e07544bbbc3ac084b04e61dd",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmSegment.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Widget level (scale)\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__99305d7c07c840a0889c11ff4f189499",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmSegment.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Widget level (move)\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__8c31438aa1c84296b67715fcf8e97d19",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmSegment.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Row level\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__6c245187c63e40c6b293f4108838eb8b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmSegment.segCategories.setGestureRecognizer(2, {fingers:1,swipedistance:50,swipevelocity:75}, animateTheLabelInsideRow);\n",
+            "parentId": "IF_CONDITION__8c31438aa1c84296b67715fcf8e97d19",
+            "callbackType": null
+        }, {
+            "id": "IF_CONDITION__97a9097194e945c8a9fb506601f1e134",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmSegment.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Dashboard\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM___651665a22a114df5bb397d7c45f8b023",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmDashboard",
+            "formKUID": "0cc2db47bf7c4c11b8fc5efe5c1f3037",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "IF_CONDITION__97a9097194e945c8a9fb506601f1e134",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "ADD_SNIPPET__5d82a08d1d5f4a6caeb07fa81a01af8d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function scaleAnimationOnSegment () {\n  var transformObject1 = kony.ui.makeAffineTransform();\n  var transformObject2 = kony.ui.makeAffineTransform();\n   transformObject1.scale(0,0);\n   transformObject2.scale(1,1);\n  var animationObject = kony.ui.createAnimation(\n    {\"0\":{\"transform\":transformObject1,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}},\n    \"100\":{\"transform\":transformObject2,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}}});\n   \tvar animationConfig = {\n    \tduration: 1,\n    \tfillMode: kony.anim.FILL_MODE_FORWARDS\n    };\n  \tvar animationCallbacks = {\"animationEnd\":function(){kony.print(\"animation END\")}};\n  \tvar animationDefObject={definition:animationObject,config:animationConfig,callbacks:animationCallbacks};\n  frmSegment.segCategories.setAnimations({visible:animationDefObject}); \n}\nscaleAnimationOnSegment ();",
+            "parentId": "IF_CONDITION__fe3582f4e07544bbbc3ac084b04e61dd",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__790c8c8123cb4801b840a3b96d3d054d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function translateAnimationOnSegment () {\n  var transformObject1 = kony.ui.makeAffineTransform();\n  var transformObject2 = kony.ui.makeAffineTransform(); \n  \n  transformObject1.translate(200, 0);\n  transformObject2.translate(0, 0);\n\n  var animationObject = kony.ui.createAnimation(\n    {\"0\":{\"transform\":transformObject1,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}},\n     \"100\":{\"transform\":transformObject2,\"stepConfig\":{\"timingFunction\":kony.anim.LINEAR}}});\n  var animationConfig = {\n    duration: 1,\n    fillMode: kony.anim.FILL_MODE_FORWARDS\n  };\n  var animationCallbacks = {\"animationEnd\":function(){kony.print(\"animation END\");}};\n  var animationDefObject={definition:animationObject,config:animationConfig,callbacks:animationCallbacks};\n  frmSegment.segCategories.setAnimations({visible:animationDefObject}); \n}\ntranslateAnimationOnSegment ();",
+            "parentId": "IF_CONDITION__99305d7c07c840a0889c11ff4f189499",
+            "callbackType": null
+        }]
+    }
+}

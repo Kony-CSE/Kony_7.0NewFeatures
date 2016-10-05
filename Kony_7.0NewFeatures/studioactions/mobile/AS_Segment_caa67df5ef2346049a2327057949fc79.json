@@ -1,0 +1,38 @@
+{
+    "AS_Segment_caa67df5ef2346049a2327057949fc79": {
+        "id": "AS_Segment_caa67df5ef2346049a2327057949fc79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmPropertyEditorFontSelection",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bd44098bf13d4614b043b512137454b6"
+        },
+        "sourceObj": {
+            "itemKUID": "507619e5e9bc4ab494dec0dadec0bc0c",
+            "widgetKUID": "b158cd12c5b7404ab528fe811d636545",
+            "evt": "onRowClick",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION___ide_onRowClick_06059cc788c947709cbf0f76c69f9a3b",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "display": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

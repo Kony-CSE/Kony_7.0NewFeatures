@@ -1,0 +1,23 @@
+{
+    "AS_Form_5b84a59eed8f4778b621d94f01a8931f": {
+        "id": "AS_Form_5b84a59eed8f4778b621d94f01a8931f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCopyPasteColor",
+            "type": "forms",
+            "platform": null,
+            "KUID": "02ffc4bf7c0945389daa65f75b6edd10"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__dc34a8df54cf47c68d8d911009db173b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmCopyPasteColor.video.setSource({\"mp4\":\"media4\"});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

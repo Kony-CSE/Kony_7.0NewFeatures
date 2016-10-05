@@ -1,0 +1,56 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_enabled_": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "5"
+    },
+    "_skin_": "s49d8dbb07224b1cad0e39176f8ea0f3",
+    "_src_": "imagedrag.png",
+    "_width_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "enabled": false,
+    "id": "imgProduct",
+    "imagescalemode": 1,
+    "info": null,
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "a1dd570eef6c416eb58efcf3d264ab09",
+    "name": "kony.ui.Image2",
+    "parent": "FlexContainer004ed871e4c6747",
+    "pf": "CopyFBox083893b4a3dfc46",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

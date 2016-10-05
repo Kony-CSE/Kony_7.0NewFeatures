@@ -1,0 +1,39 @@
+{
+    "AS_Image_7a5326bb75604e1eac824f1fe7269b1a": {
+        "id": "AS_Image_7a5326bb75604e1eac824f1fe7269b1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frm3DTransformations",
+            "type": "forms",
+            "platform": null,
+            "KUID": "5f3dec967cc045ee84d608adf3085344"
+        },
+        "sourceObj": {
+            "itemKUID": "2b41d6fe939a4fd5b3f97c77eab3a2db",
+            "widgetKUID": "4830bd0974954617af44f528e6079321",
+            "evt": "onTouchEnd",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____ab4e6d1aa52649aea10654818ab399c1",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Image_4fce3a319ab547e095237e6cca63b736",
+            "display": "AS_Image_4fce3a319ab547e095237e6cca63b736",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        1,
+        0,
+        0,
+        2
+    ],
+    "_skin_": "se880e98576247c5affdedc89783aa8a",
+    "_srcKuid_": "f6d8b3cd8b2d4ba5ae29969a3021fab4",
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "height": {
+            "type": "string",
+            "value": "100%"
+        },
+        "id": "rtxFooter",
+        "left": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "text": "© Copyright 2015 Kony, Inc. All rights reserved. ",
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "100%"
+        }
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "100%",
+    "id": "rtxFooter",
+    "instanceOf": "f6d8b3cd8b2d4ba5ae29969a3021fab4",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "mb881b4232a84bed80bf3454b81fb78b",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.RichText",
+    "padding": [
+        1,
+        0,
+        0,
+        2
+    ],
+    "parent": "flexFooter",
+    "pf": "frmDashboard",
+    "skin": "se880e98576247c5affdedc89783aa8a",
+    "text": "© Copyright 2015 Kony, Inc. All rights reserved. ",
+    "top": "0dp",
+    "wType": "RichText",
+    "width": "100%"
+}

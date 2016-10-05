@@ -1,0 +1,63 @@
+{
+    "__parentReadjusting__": false,
+    "_left_": {
+        "type": "string",
+        "value": "-100%"
+    },
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6a6e4341acd4587ab35e918a42d73e5",
+    "_srcKuid_": "m43a4d9a0b654d18a4beeb163b4d274a",
+    "_width_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "areFlexPropsReferenced": true,
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "segHamburgerMenu"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flexHamburgerMenu"
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "100%",
+    "id": "flexHamburgerMenu",
+    "instanceOf": "m43a4d9a0b654d18a4beeb163b4d274a",
+    "isDataReferenced": true,
+    "isVisible": true,
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mc25e2c9da964281bc0824a5b0c0d0ef",
+    "layoutType": 4,
+    "layouttype": 4,
+    "left": "-100%",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmDashboard",
+    "pf": "frmDashboard",
+    "skin": "s6a6e4341acd4587ab35e918a42d73e5",
+    "top": "0dp",
+    "wType": "FlexContainer",
+    "width": "75%"
+}

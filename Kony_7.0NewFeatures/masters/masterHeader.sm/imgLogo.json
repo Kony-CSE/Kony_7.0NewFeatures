@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "157dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "_src_": "konylogo.png",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "childInstances": [
+        "m7f3d5b413c44d72be6eebcdc5acb0a3",
+        "m81e154e47104c758e39a1be0618cf87",
+        "m63c67280ce44712b703f244e4329a4f",
+        "mee382e75615488c983abf715f747f00",
+        "m76c93d33af2439fa5d9e361b24ecd3a",
+        "m9967bf3ecd94bc4a2412a874c1b6287",
+        "mbb975e970ee4a51834a35097b85bed7"
+    ],
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "masterHeader",
+        "platform": "iphone",
+        "templateType": "masters",
+        "topLevelBox": null
+    },
+    "id": "imgLogo",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "9faf41eaba1a467cba7a754de7f52a60",
+    "name": "kony.ui.Image2",
+    "parent": "flexHeader",
+    "pf": "masterHeader",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

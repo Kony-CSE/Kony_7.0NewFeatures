@@ -1,0 +1,568 @@
+{
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "flexSegHdr": {},
+                "flexSegRow": {},
+                "lblSegHdr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Widget Enhancements"
+                },
+                "lblSegRow": {}
+            },
+            [
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Map"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Segment"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Camera & Video"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "flexSegHdr": {},
+                "flexSegRow": {},
+                "lblSegHdr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "API Enhancements"
+                },
+                "lblSegRow": {}
+            },
+            [
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "3D Transformations"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Authenticate Using TouchID"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "flexSegHdr": {},
+                "flexSegRow": {},
+                "lblSegHdr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tools Enhancements"
+                },
+                "lblSegRow": {}
+            },
+            [
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Masters"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Undo and Redo"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Property Editor Font Selection"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Copy and Paste a Color"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Border Property Control"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Fit to Parent"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "i18n Keys Import and Export"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "App Canvas Focus"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Retain properties in Code view"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "tplSegRow",
+    "_sectionHeaderTemplateId": "tplSegHdr",
+    "_srcKuid_": "b158cd12c5b7404ab528fe811d636545",
+    "areFlexPropsReferenced": true,
+    "areflexpropsreferenced": true,
+    "autogrowMode": 0,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "context": {},
+    "data": [
+        [
+            {
+                "flexSegHdr": {},
+                "flexSegRow": {},
+                "lblSegHdr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Widget Enhancements"
+                },
+                "lblSegRow": {}
+            },
+            [
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Map"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Segment"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Camera & Video"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "flexSegHdr": {},
+                "flexSegRow": {},
+                "lblSegHdr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "API Enhancements"
+                },
+                "lblSegRow": {}
+            },
+            [
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "3D Transformations"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Authenticate Using TouchID"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "flexSegHdr": {},
+                "flexSegRow": {},
+                "lblSegHdr": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Tools Enhancements"
+                },
+                "lblSegRow": {}
+            },
+            [
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Masters"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Undo and Redo"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Property Editor Font Selection"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Copy and Paste a Color"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Border Property Control"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Fit to Parent"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "i18n Keys Import and Export"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "App Canvas Focus"
+                    }
+                },
+                {
+                    "lblSegRow": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Retain properties in Code view"
+                    }
+                }
+            ]
+        ]
+    ],
+    "dataDiffs": {
+        "id": "segHamburgerMenu"
+    },
+    "date": null,
+    "dateComponents": null,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupCells": false,
+    "hasSections": true,
+    "height": "100%",
+    "id": "segHamburgerMenu",
+    "ide_onRowClick": "AS_Segment_04bfeac4b5e74ba880c687b256116e85",
+    "indicator": "rowselect",
+    "instanceOf": "b158cd12c5b7404ab528fe811d636545",
+    "isDataReferenced": true,
+    "isVisible": true,
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "m2fce1a4ac6b48208c3c67a6a7bd18d8",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "onRowClick": "AS_Segment_04bfeac4b5e74ba880c687b256116e85",
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "pageOffDotImage": "pageOffDot.png",
+    "pageOnDotImage": "pageOnDot.png",
+    "parent": "flexHamburgerMenu",
+    "pf": "frmBorderPropertyControl",
+    "retainSelection": false,
+    "rowFocusSkin": "s9d98405383041d8b93a4f6259d0aac9",
+    "rowSkin": "sf6d0736203b4933a8d4307462bbc9ac",
+    "rowTemplate": {
+        "DNDConfig": null,
+        "_height_": {
+            "type": "string",
+            "value": "45dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s18a2635d6e8482ca0004b516d28b625",
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "children": [
+            "lblSegRow"
+        ],
+        "clipbounds": true,
+        "containerId": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "flexSegRow",
+        "info": null,
+        "isTemplate": true,
+        "isvisible": true,
+        "kuid": "a24c3723bc7b4788abf1a8038b41b789",
+        "layouttype": 2,
+        "lblSegRow": {
+            "@class": "com.kony.gen.viz.model.component.KVizLabel",
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "25dp"
+            },
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_skin_": "s11f6149fdd942509a6acd88fb91e603",
+            "_text_": "",
+            "_top_": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "_width_": {
+                "type": "string",
+                "value": "80%"
+            },
+            "_wrapping_": 2,
+            "android": {
+                "textStyle": {
+                    "letterSpacing": 0,
+                    "strikeThrough": false
+                }
+            },
+            "canUpdateUI": true,
+            "containerId": true,
+            "containerweight": 100,
+            "contentalignment": 1,
+            "genericProperties": {
+                "wrapping": 2
+            },
+            "id": "lblSegRow",
+            "info": null,
+            "ipad": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "iphone": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "isvisible": true,
+            "kuid": "1a83938a01814d5a9fe8911b07ebf27f",
+            "name": "kony.ui.Label",
+            "parent": "flexSegRow",
+            "pf": "tplSegRow",
+            "tooltip": "",
+            "wType": "Label"
+        },
+        "name": "kony.ui.FlexContainer",
+        "parent": "tplSegRow",
+        "pf": "tplSegRow",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 7
+    },
+    "rowTemplateId": "ba55da0403a74b4da8dc5eed0bebf603",
+    "rowtemplate": "flexSegRow",
+    "sectionHeaderSkin": "sa12503bd67d4dda8a35208a113d002c",
+    "sectionHeaderTemplate": {
+        "DNDConfig": null,
+        "_height_": {
+            "type": "string",
+            "value": "40dp"
+        },
+        "_margin_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_orientation_": 6,
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "_percent_": true,
+        "_skin_": "s63b4c37392e44f2a2c2e6435a59df31",
+        "allboxes": [],
+        "autogrowmode": 0,
+        "canUpdateUI": true,
+        "children": [
+            "lblSegHdr"
+        ],
+        "clipbounds": true,
+        "containerId": true,
+        "containerweight": 100,
+        "enablescrolling": true,
+        "id": "flexSegHdr",
+        "info": null,
+        "isTemplate": true,
+        "isvisible": true,
+        "kuid": "27b82009c2ed4d7181a243a3d142a0e6",
+        "layouttype": 2,
+        "lblSegHdr": {
+            "@class": "com.kony.gen.viz.model.component.KVizLabel",
+            "DNDConfig": null,
+            "__parentReadjusting__": false,
+            "_height_": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "_left_": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "_margin_": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "_padding_": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "_skin_": "s11f6149fdd942509a6acd88fb91e603",
+            "_text_": "",
+            "_top_": {
+                "type": "string",
+                "value": "10dp"
+            },
+            "_width_": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "_wrapping_": 2,
+            "android": {
+                "textStyle": {
+                    "letterSpacing": 0,
+                    "strikeThrough": false
+                }
+            },
+            "canUpdateUI": true,
+            "containerId": true,
+            "containerweight": 100,
+            "contentalignment": 4,
+            "id": "lblSegHdr",
+            "info": null,
+            "ipad": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "iphone": {
+                "psp": {
+                    "wrapping": 2
+                }
+            },
+            "isvisible": true,
+            "kuid": "8c91571ca953442391eec87d1e3defec",
+            "name": "kony.ui.Label",
+            "parent": "flexSegHdr",
+            "pf": "tplSegHdr",
+            "tooltip": "",
+            "wType": "Label"
+        },
+        "name": "kony.ui.FlexContainer",
+        "parent": "tplSegHdr",
+        "pf": "tplSegHdr",
+        "snapgridsize": 10,
+        "snaptogrid": true,
+        "wType": "FlexContainer",
+        "widgetalignment": 1
+    },
+    "sectionHeaderTemplateId": "e64a38788bb34ba18fdc49e6aab34e10",
+    "sectionheadertemplate": "flexSegHdr",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionBehavior": "default",
+    "separatorColor": "64646400",
+    "separatorRequired": true,
+    "separatorThickness": 1,
+    "showScrollbars": false,
+    "top": "0dp",
+    "viewType": "tableview",
+    "wType": "Segment",
+    "widgetDataMap": {
+        "flexSegHdr": "flexSegHdr",
+        "flexSegRow": "flexSegRow",
+        "lblSegHdr": "lblSegHdr",
+        "lblSegRow": "lblSegRow"
+    },
+    "width": "100%"
+}

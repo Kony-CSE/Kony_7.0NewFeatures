@@ -1,0 +1,23 @@
+{
+    "AS_Form_57d9b68262b9457db274f4661c5708b9": {
+        "id": "AS_Form_57d9b68262b9457db274f4661c5708b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBorderPropertyControl",
+            "type": "forms",
+            "platform": null,
+            "KUID": "33d021473f3f498591deab7efb2a7043"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__f5cdca9acaa545e895a2eabe81815dd3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmBorderPropertyControl.video.setSource({\"mp4\":\"media5\"});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

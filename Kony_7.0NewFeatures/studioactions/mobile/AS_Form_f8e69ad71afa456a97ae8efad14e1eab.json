@@ -1,0 +1,23 @@
+{
+    "AS_Form_f8e69ad71afa456a97ae8efad14e1eab": {
+        "id": "AS_Form_f8e69ad71afa456a97ae8efad14e1eab",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPropertyEditorFontSelection",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bd44098bf13d4614b043b512137454b6"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__e967b997cc0249aca6dd4d9b91d07f07",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmPropertyEditorFontSelection.video.setSource({\"mp4\":\"media2\"});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

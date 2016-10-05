@@ -1,0 +1,19 @@
+{
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 1,
+  "delinkedPltfrms": {
+    "desktop": [],
+    "mobile": [
+      "iphone"
+    ],
+    "tablet": [],
+    "watch": []
+  },
+  "isDefaultSkin": false,
+  "kuid": "sb2acb373394448a843f61a418fade5f",
+  "wType": "Segment"
+}

@@ -1,0 +1,39 @@
+{
+    "AS_Image_6d62ac68651947f7a39684c145ec5522": {
+        "id": "AS_Image_6d62ac68651947f7a39684c145ec5522",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUndoRedoInViz",
+            "type": "forms",
+            "platform": null,
+            "KUID": "40103d17cd3d4f14831722e3d10a7c90"
+        },
+        "sourceObj": {
+            "itemKUID": "52c24489a270487cb4f8ff2343726e3c",
+            "widgetKUID": "med872e437c944249417f5ee5db78daa",
+            "evt": "onTouchEnd",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____98baf159cb024c638b60aec907adeb76",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Image_f325b1e17c614121ab6c18a9f51607c9",
+            "display": "AS_Image_f325b1e17c614121ab6c18a9f51607c9",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }]
+    }
+}

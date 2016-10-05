@@ -1,0 +1,256 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "childInstances": [
+        "mee78f4b0b3741d68b72a91805580539",
+        "m501944fe76544cd9ca58be1ef7c29ea",
+        "me330a238e6b44f289a682f5cc8c86cf",
+        "me83996c9c2e428ba4460a128a9d7abb",
+        "m17e06ff0afc4ac6a018d9c32a818573",
+        "m89584d611a44bf3928fec524121ae1f",
+        "m3e28519c6ef461a9c3d14eb4e3484f7",
+        "m177f7514328480d8bf1eb3f12a5c05f",
+        "m751e5b883ae43f0aef48a9a55298ce8",
+        "m0ed6f952e9b4606bcd7cf2d699cb0b6",
+        "m2fce1a4ac6b48208c3c67a6a7bd18d8",
+        "m029867296084f5ca80a08780111bdfa",
+        "m6ca290dcc574d418fe970adacbd921d",
+        "m2ea15c22f524a7f9abf3e1ac4aba172",
+        "m933ab734acd409ebd76d775050912c7"
+    ],
+    "containerweight": 100,
+    "counter": "28",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segHamburgerMenu",
+    "ide_onRowClick": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "b158cd12c5b7404ab528fe811d636545",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            [
+                {
+                    "flexSegHdr": {},
+                    "flexSegRow": {},
+                    "lblSegHdr": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Widget Enhancements"
+                    },
+                    "lblSegRow": {}
+                },
+                [
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Map"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Segment"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Camera & Video"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdr": {},
+                    "flexSegRow": {},
+                    "lblSegHdr": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "API Enhancements"
+                    },
+                    "lblSegRow": {}
+                },
+                [
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "3D Transformations"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Authenticate Using TouchID"
+                        }
+                    }
+                ]
+            ],
+            [
+                {
+                    "flexSegHdr": {},
+                    "flexSegRow": {},
+                    "lblSegHdr": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Tools Enhancements"
+                    },
+                    "lblSegRow": {}
+                },
+                [
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Masters"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Undo and Redo"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Property Editor Font Selection"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Copy and Paste a Color"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Border Property Control"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Fit to Parent"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "i18n Keys Import and Export"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "App Canvas Focus"
+                        }
+                    },
+                    {
+                        "lblSegRow": {
+                            "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                            "text": "Retain properties in Code view"
+                        }
+                    }
+                ]
+            ]
+        ],
+        "rowTemplateId": "ba55da0403a74b4da8dc5eed0bebf603",
+        "rowtemplate": "flexSegRow",
+        "sectionHeaderTemplateId": "e64a38788bb34ba18fdc49e6aab34e10",
+        "sectionheadertemplate": "flexSegHdr",
+        "widgetdatamap": {
+            "flexSegHdr": "flexSegHdr",
+            "flexSegRow": "flexSegRow",
+            "lblSegHdr": "lblSegHdr",
+            "lblSegRow": "lblSegRow"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexHamburgerMenu",
+    "pf": "masterHamburgerMenu",
+    "retainselection": false,
+    "rowcounter": 8,
+    "rowfocusskin": "s9d98405383041d8b93a4f6259d0aac9",
+    "rowskin": "sf6d0736203b4933a8d4307462bbc9ac",
+    "rowtemplate": "flexSegRow",
+    "screenlevelwidget": false,
+    "seccounter": 2,
+    "sectionheaderskin": "sa12503bd67d4dda8a35208a113d002c",
+    "sectionheadertemplate": "flexSegHdr",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexSegHdr": "flexSegHdr",
+        "flexSegRow": "flexSegRow",
+        "lblSegHdr": "lblSegHdr",
+        "lblSegRow": "lblSegRow"
+    }
+}

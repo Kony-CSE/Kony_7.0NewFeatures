@@ -1,0 +1,39 @@
+{
+    "AS_Image_1889a388c568408b84f8affecf277ebc": {
+        "id": "AS_Image_1889a388c568408b84f8affecf277ebc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "actions": [{
+            "id": "CHANNEL_CONDITION_ide_onTouchEnd_f3f9484b222c498990448454fdf0137d",
+            "type": "CHANNEL_CONDITION",
+            "platforms": ["iphone"]
+        }, {
+            "id": "INVOKE_FUNCTION__ide_onTouchEnd_cb1bb55d96734f9f82ba856efa2464a8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "authenticateUsingTouchID",
+            "display": "authenticateUsingTouchID",
+            "inputparams": [],
+            "parentId": "CHANNEL_CONDITION_ide_onTouchEnd_f3f9484b222c498990448454fdf0137d",
+            "callbackType": null
+        }, {
+            "id": "CHANNEL_CONDITION_ide_onTouchEnd_4468f78303ea4630aa39485589e410f1",
+            "type": "CHANNEL_CONDITION",
+            "platforms": ["android", "spaip", "spawinphone8", "spaan", "spabb", "winphone8"]
+        }, {
+            "id": "ADD_SNIPPET_ide_onTouchEnd_566f2470ba3b40949d9c543557d8e255",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert (\"Local authentication using TouchID is supported only in iOS platform\");",
+            "parentId": "CHANNEL_CONDITION_ide_onTouchEnd_4468f78303ea4630aa39485589e410f1",
+            "callbackType": null
+        }]
+    }
+}

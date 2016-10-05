@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_enabled_": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd480d093ed446f8aea281987c80da9a",
+    "_text_": "Label",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "enabled": false,
+    "id": "lblOnSale",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.label.IPhoneLabelProperty",
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "bb17d0b0a0784bbb899f51ffd94865f1",
+    "name": "kony.ui.Label",
+    "parent": "CopyFBox083893b4a3dfc46",
+    "pf": "CopyFBox083893b4a3dfc46",
+    "tooltip": "",
+    "wType": "Label"
+}

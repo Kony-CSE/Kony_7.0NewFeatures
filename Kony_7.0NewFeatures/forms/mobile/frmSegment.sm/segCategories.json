@@ -1,0 +1,484 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Coby - 32\" Class (31-1/2\" Diag.) - LED - 720p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 169.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.3"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "!!! ON SALE !!!"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 24\" Class (23-5/8\" Diag.) - LED - 720p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 349.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "!!! ON SALE !!!"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 32\" Class (31-1/2\" Diag.) - LED - 720p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 149.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 48\" (47-5/8\" Diag.) - LED - 1080p - 60Hz - HDTV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 291.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 55\" Class (54-5/8\" Diag.) - LED - 1080p - Smart - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 349.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.2"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "!!! ON SALE !!!"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 50\" Class (49-1/2\" Diag.) - LED - 1080p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 1379.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 40\" Class (40\" Diag.) - LED - 1080p - HDTV w/ Built in Roku TV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 299.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.3"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 48\" (47-5/8\" Diag.) - LED - 1080p - 60Hz - HDTV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 239.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 3.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 48\" (47-5/8\" Diag.) - LED - 1080p - 60Hz - HDTV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 699.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "!!! ON SALE !!!"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 50\" Class (49-1/2\" Diag.) - LED - 1080p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 429.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 40\" Class (40\" Diag.) - LED - 1080p - HDTV w/ Built in Roku TV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 699.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 3.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "!!! ON SALE !!!"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 48\" (47-5/8\" Diag.) - LED - 1080p - 60Hz - HDTV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 429.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Coby - 32\" Class (31-1/2\" Diag.) - LED - 720p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 699.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 3.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Coby - 32\" Class (31-1/2\" Diag.) - LED - 720p - HDTV - Black"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 239.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 40\" Class (40\" Diag.) - LED - 1080p - HDTV w/ Built in Roku TV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 699.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 3.0"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Dynex™ - 48\" (47-5/8\" Diag.) - LED - 1080p - 60Hz - HDTV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 239.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Avg User Rating: 4.5"
+            }
+        },
+        {
+            "imgProduct": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "http://img.bbystatic.com/BestBuy_US/images/products/3611/3611269_s.gif"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "!!! ON SALE !!!"
+            },
+            "lblProductName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Hisense - 40\" Class (40\" Diag.) - LED - 1080p - HDTV w/ Built in Roku TV"
+            },
+            "lblProductPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$ 699.99"
+            },
+            "lblProductRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_enabled_": false,
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_skin_": "seg2Normal",
+    "_top_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "AdvancedWidgetsSegements",
+        "templateType": "segments",
+        "topLevelBox": false
+    },
+    "counter": "016",
+    "disabledSkins": {
+        "rowFocusSkin": "s9d98405383041d8b93a4f6259d0aac9"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "b0947d12ceca4162aaae2fcd4a01cc57",
+    "groupcells": true,
+    "hasSections": false,
+    "id": "segCategories",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.segment2.IPhoneSegment2Property",
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "a0c87f0a5e5b41a6931859a8ceea0ff9",
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexMainContent",
+    "pf": "frmSegment",
+    "retainselection": false,
+    "rowTemplateId": "b0947d12ceca4162aaae2fcd4a01cc57",
+    "rowcounter": 16,
+    "rowskin": "sb2acb373394448a843f61a418fade5f",
+    "rowtemplate": "CopyFBox083893b4a3dfc46",
+    "scrollingevents": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sa12503bd67d4dda8a35208a113d002c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "FlexContainer004ed871e4c6747": "FlexContainer004ed871e4c6747",
+        "flexContainerForProductDetails": "flexContainerForProductDetails",
+        "imgProduct": "imgProduct",
+        "lblOnSale": "lblOnSale",
+        "lblProductName": "lblProductName",
+        "lblProductPrice": "lblProductPrice",
+        "lblProductRating": "lblProductRating"
+    },
+    "zindex": 1
+}

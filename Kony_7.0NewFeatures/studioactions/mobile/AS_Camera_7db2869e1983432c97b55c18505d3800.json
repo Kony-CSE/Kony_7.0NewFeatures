@@ -1,0 +1,28 @@
+{
+    "AS_Camera_7db2869e1983432c97b55c18505d3800": {
+        "id": "AS_Camera_7db2869e1983432c97b55c18505d3800",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCamera",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a3dd2ee9cfe64c4a92c57be3b8e2a433"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___799aab8ce91e4bb18204d5b6d64e4cac",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "launchCamAndCaptureVideo",
+            "display": "launchCamAndCaptureVideo",
+            "inputparams": [{
+                "name": "camera",
+                "value": "eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

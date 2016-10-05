@@ -1,0 +1,176 @@
+{
+    "AS_Segment_b28a8ba5d46140be9db83a31d2ad2e63": {
+        "id": "AS_Segment_b28a8ba5d46140be9db83a31d2ad2e63",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMap",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ec85cdbdc3dc4dbd9b8e017ac9e36054"
+        },
+        "sourceObj": {
+            "itemKUID": "507619e5e9bc4ab494dec0dadec0bc0c",
+            "widgetKUID": "b158cd12c5b7404ab528fe811d636545",
+            "evt": "onRowClick",
+            "platform": null
+        },
+        "actions": [{
+            "id": "NAMED_ACTION____4e2e1fe9e5b545cb87277ba884cd156d",
+            "type": "NAMED_ACTION",
+            "sequenceKUID": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "display": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+            "inputparams": [{
+                "datatype": "collection",
+                "name": "eventobject"
+            }, {
+                "datatype": "number",
+                "name": "sectionNumber"
+            }, {
+                "datatype": "number",
+                "name": "rowNumber"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": false,
+            "isMasterInstanceAction": true
+        }, {
+            "id": "IF_CONDITION__364dadb8b1794d549b3aa49864d14d59",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Using image\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__44f16acca8be40959ae2aa87cbfcba4f",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Using base64 string\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__edd3957290c94dc4b50f608d630c571d",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Using image object\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__b91432df112146e18f3761764bc10f55",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Using image file path\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__0bc0e6bd9a694359b6d3937be6459978",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Draw Polygon\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__78d57448373f4a3886bf0fe0fc1cf578",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Draw Circle\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__ae1abbd6a46a4573816a332225d1554c",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Search and draw routes\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "IF_CONDITION__2c660bf1ad5b4ef78d4bfd6597c0fc31",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "expression",
+                "leftValue": "frmMap.segHamburgerMenu.selectedRowItems[0].lblSegRow.text == \"Dashboard\""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "ADD_SNIPPET__d098d32507ef4f4e9e31c6a28d3190be",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMap.map.locationData = \n[{\nlat:\"17.4469390\",\nlon:\"78.3741190\",\nname:\"Using Base64 String For Pin\",\ndesc:\"Kony Solutions Hyderabad Office\",\nimage:{\n       source:\"iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAL+klEQVRoQ7WZC7BVVRnH/+tb6zzuvXB5IyDERU3KIXkMamQZPkrRsqyGdDRHM20iy0fqoDXGaA2aZZFY6lBZg2lSQ0VRNuOjESEzhAJJuzcegiBeeXPvOWfvtb6v+dY+h463Ru69HM6w2fucs8/e/9/33usaNPC1cusNTQfdwVOBZLpBvg0SBgEiArPXCHcQmlcPGuNfmG4eSht1W9OICy3fdul7xfgvDXITLhxWnDSg1bXBmoJUr20Uwku32ZduxJvl9bsPpJuXFnKtCz406uF1R3r/IwL4w46L2xLftXBs8wfPH1mYYvakHbI3bZcuv528dLOAVTsBhp1pxgA3lgbnJ8pg14bt5efk9a5Vjw9oGnb9Occ8urO/IP0G+M3mWZcOyI976B0t5zS/kaxBZ3ktYAAyeRhjYUBRkzEC4YAgHhy3JH43qngqhuUnYdPBZbtLftdlF7X96Q/9gegXwK82nTVvVMtpXy9QK17tfpqBALIFIpNjhwKMdQRYJgHECAXxzJJCQkqMhEOoIEhCzhR4fMt5tD/dHHaV1137qQnPPtBXiD4DLNl4+k2jmmfck8h+3lV5iazNMyEPZ4tkUGBn8yDkiIxjkIFIIFaAkCCgTJ5TllCBR4U4pCyS0DFNM4Qllc7S+ssvPv65R/oC0SeAJRvP+PCgQtsTgoC9STusLcJE8QVYKsCiCFs9JsrFUNGw8VyBik5RgXAJgSsIIQWjAg4pgqQYXpyKit+blCo7T5t94sq1vYXoNcBvXj59YFJwL7fmx4/eXVkv1mio5Mkhz9bmYamJLBWZqIhc9dgYQuCEApc4cBmeyxS4zArgQ4UEiYYWhZCwiMeI4nR6o3v9+mNfa5l65pnP+N5A9BrgkfZp3xxafNdte5INbMjCIgdjC+SQY2ub1AMRwJF6oYmcbWIyDkFK5H2ZfSgh5TIxl7nqEfJQ4SlxSDTNIQxqdROxp9R+7RUnrb2/YQCL209rdcZttda0JnwAlnIa5yDrYJFXEDiKEMjZJnRuS7Hm6U7s3HJAKyhGH9+MKTOHYtBIwPtKDCEfyhAkMYQYASwBPngUzFCU0oOvtrz7hONmmyXhcBC98sDDGyZd1ZQfuiiR3bDWMQzBGgeDAjmb52oeUNJt+Wd3tmPlsu0kwqwhJBASZiZLOOvTY2j2zeOYnIeXhCRaPolJDgkIPlAamPM0hMrJ3guuPvmfyxsCsOild/++mGuZxSgZso41gGAcnM2qDZkCSgeI5l+2gTu3VlDI54iI2JhoH20IHHxAuZJQ26RmvuFHE2BznoIkKpxYUmYRhBAo9Z4tmkw5PbjoC5M7rmkMwPqT9pOTgWQMcs5pd4I1OZBRkDxyLocFn38VHatLyOdygNo9nmPiXn9Xc3WpXMG0c1tw2R3DwKmPFQgmIHAEQBo8xAOphFe+OPnf7zpigB+uPfFYcmabM8LWOSJrWYNHuy1Mjiw5/vfqFPfP2U75guM4uhkTz1NQ0uZsDBsihSEDcLlUwVcWD6MR7wAH8QQRDt4jFSEOgdPgjXjBiI5Nudmz8bZ5cNgceGDdcdOF7QvOgck6yhmjICpSw4ictfz4N/Zh9fISwYCNjQFGxlrWixtrMwAFI6UQZjF4/yVEZ1+R58BM+l+IOeApDfq9h/cgb9OxN07Z9trbeeGwAAtfHD/DWFrpjAM5g5xWHiKoFoXQSnT/5/Zg28texf73u0x8PKd+UzEiwDvfK5h9u0PwjMCs4hFEYgixF3hhWIfjvjR5y6YjAvjemnGnWKG/OufYamjonggugyCyxAs/uw87OrTQEJPmCEBWPZBBxrCJEEQkIqwnnDCd6JO3MwfPFDjudeCj1KsHArz3xI7bbpq2Y8sRASx8ccL4AN7sNCldZn3dVJxC6Ny2+LYyXlmVwlobE5asBlH1vJ6eUA+wYMp5hLOuLsMHgVcPVL0Qq5HXMivwVBg8d/rGfUcEoD/+7gtju52lojXOGEeswqsA0QNrf0f47XcPEjmK+RE9o97Izos5kI3WhgwRSxB8/FbQuMld7DnrE1UACjGh2Xj2pVtmvN5yxFVIL/Cd5499hqw5wxmnk3JNGJza2RKTH4AFl3dR94EQk5iMORROWoVAxNbqzsaeMGyMw+y79pH3Cftqo/Pay0TDyXPwYjzz6rmnv35KQwDueX7UzRb0LWMdnFGrAi4TFK+v4va+NAGLbtsMjXineVALIZO9156h3+XyFp++vYD86C0xdCQwmBksWRj52A/087Dg1g90Xt8QgPmrRrVZgw7tAlloZE9cZEGWsnKZzzVT10uT+ad3rUepO41JrCFkrSUdPzQvhgxrpouuG84YvQYp6ygBlU6cvRSIJDB7H8gIn33rB3c91RAAvchdK0YuN9bOciYLITV+TFNrDjWsgmvhkWYm1vyRac3Kjbyr8wBcLkejxw3lqe87Fsd/YD/tTFdx6hONJNKHZuZArCBSBfA6GYWtE9/YddzhmljMq8MR1r6f/+zwmQb2acoCX+0PstrMEEeGbO7RPTCwMAbHNJ+MvBkKfbAvhdexs2sdutM3wdW1Ck3kOIUGZHuvAABzgBG5+Wtn7v52b7T1GkAv9o0/D3vKGjtT+2lWKpUhGxlihTHCpAkSVyJ0SSK2LX00ZkiEjX1AG5aeE4L2hEDs1RMMr8dBtrUWW0688X3bSg0HmPfk8Gnk+G8EDX6I1aqio0UdgBj1jf5TcZEjLqvoO33AVwCdlyQIsa5XhEAaP0rLQWHD7DvO3rekN+L7FEK1C379qcGLiOxVKlpNGsXb2rggMGr8uKIiEMTxKJ6nRmeWuE6XNePsOAshrTz6Pvz2zg/t/1hvxfcLYO6zg4bkE7xijB1uNS7IsA7LOmUQCWcAamlS00OrjDYyNbExXPWA0bknein4uJfAoZO9TJp//sHOowqgF//qE62XksFiWIIVHZUVQEi0QsVnAe0CtRwAaW4aDXsYioVHC69k4cQSNBf0we0j82ftP+wTWE+4PiVx/Y/n/nHgcksySx8bjeigFiFi/qr6+ldm/egNiJ6r806WyFlIBfn+XRd0XdcXy9fO7TfALX9qHgMvrxiiFiNG4pRjaiGUZW/1JqTK1ehGG5UxWRJrFYou4A0DW8pT5p2JXi2jNMwDeqGblhWuNYT7jJCGEYmW0ViANAsyAF0u7QmgE6cCQDgRyKn3fjT9e3+s368krr/RvHmgvVPzzxNkenX2zyq/xFEovmrhEz/XwUGrVjV0Kt1y5w8u8bf3V/wRA+gFrvt17jTmsFJrkDYyLZ2xkMa19eiCLIkjTFaRRMSkZW7/689l6uplqMSamk0FWX3tw6vfOVB/jy/8Co8awcU666v5YyGtywHN32h5ff5VGAI9cS8u7FiBJ6vXUdG1h3eF0ON6ENX5f8EaAjDnUYwThw4A2ZpKtQUfSuJ6GAPZ8S88tvQ2zKkTHxtxVXgt+etB6gHeAtMQABUy55d0D4zc9Hbej2lhkDx2g8x4cwu2VmHV2vWiazA9oXpqjR5pGMD1SzE4CG2EYHBdPOs9qiVVdGylDU/ijifv4weroD3F1r+vgdXgtMzWcuVQODUMQAVdu5RuIYO7/1+wamqHVPb/5OpwRtde7KmK6WnleoBYxOq2GtBbFroaCnDNg2gujnDtZM2YtzSyuKwC+ssvwq2rHmGdNGtJWxPYU2x9PtQLrx0fHQ+oik/eSV8cP9ktPFRGNYQMJC3L7geuTM9Ju9D9NjGvAntuGjr6me5r4XQo1RrqAb3qzCtQPOncwstNAzG+ZiZd2Xrm4fSWvy1h/UukftwzNGqi9Q/gKrR+Xzv36JXRnpXnkntzV46daH+cPdSAkpLZdf9nyhf6ErrqAGpWVbG6aUOr7WvW/h+L97xXwz2gN7jmQeSKQ5v+UWwxE3Vta8XPk7krfua1adViW4Xqk72KLlc3fV8T3utufFQAFOIjN+Yuf8+5+Z+GFN0LLu26qLIPu+ssrM+7umk+1AvvwxCRnXrUAMbOQNMnvtyydtPa8Pdld5fvrlpbQ+hgVbxav1bb+yy89oOjBoCZcKcMyV25vZ23v7Y+bABi/KvFGyL86ANk3m2uzkdq6YYKrwH8B6sZg4t66JvAAAAAAElFTkSuQmCC\",\n       sourceType:kony.map.PIN_IMG_SRC_TYPE_BASE64,                            \n       anchor:kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER      \n\t}\n}];\nfrmMap.show();\n",
+            "parentId": "IF_CONDITION__44f16acca8be40959ae2aa87cbfcba4f",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__1c2c7ca11c7b4120bfb14c34828a6544",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMap.map.locationData = \n[{\nlat:\"17.4469390\",\nlon:\"78.3741190\",\nname:\"Using Image In Resources For Pin\",\ndesc:\"Kony Solutions Hyderabad Office\",\nimage:{\n        source:\"mappin.png\",\n        sourceType:kony.map.PIN_IMG_SRC_TYPE_RESOURCES,\n        anchor:kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER\n      }\n}];\nfrmMap.show();\n",
+            "parentId": "IF_CONDITION__364dadb8b1794d549b3aa49864d14d59",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__5955ef7632524420893043f5251e65fc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var imageObj = kony.image.createImage(\"imageobject.png\");\nfrmMap.map.locationData = \n[{\nlat:\"17.4469390\",\nlon:\"78.3741190\",\nname:\"Using Image Object For Pin\",\ndesc:\"Kony Solutions Hyderabad Office\",\nimage:{\n      source:imageObj,\n      sourceType:kony.map.PIN_IMG_SRC_TYPE_IMAGE,\n      anchor:kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER\n\t}\n}];\nfrmMap.show();\n",
+            "parentId": "IF_CONDITION__edd3957290c94dc4b50f608d630c571d",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__147623808ddb45c0aa9881806582dff3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMap.map.locationData = \n[{\nlat:\"17.4469390\",\nlon:\"78.3741190\",\nname:\"Using Image In File System For Pin\",\ndesc:\"Kony Solutions Hyderabad Office\",\nimage:{\n      source:kony.io.FileSystem.getDataDirectoryPath()+\"/imagepath.png\",\n      sourceType:kony.map.PIN_IMG_SRC_TYPE_IMAGE,\n      anchor:kony.map.PIN_IMG_ANCHOR_BOTTOM_CENTER\n\t}\n}];\nfrmMap.show();\n",
+            "parentId": "IF_CONDITION__b91432df112146e18f3761764bc10f55",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__937f0e2620b34db2bb4fb6ce4639daba",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var polygonDataForClorado = {\n  id:\"Clorado\",\n  locations: [\n    {lat:\"37.0004\",lon:\"-109.0448\"},\n    {lat:\"36.9949\",lon:\"-102.0424\"},\n    {lat:\"41.0006\",lon:\"-102.0534\"},\n    {lat:\"40.9996\",lon:\"-109.0489\"},\n    {lat:\"37.0004\",lon:\"-109.0448\"}\n  ],\n  navigateAndZoom: true,\n  polygonConfig:{\n\tlineColor:\"0x000FF0FF\",\n\tfillColor:\"0x000FF0FF\",\n\tlineWidth:3\n  }\n};\n\nfrmMap.map.addPolygon(polygonDataForClorado);\nfrmMap.show();",
+            "parentId": "IF_CONDITION__0bc0e6bd9a694359b6d3937be6459978",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__c9fc3adfcf1b46c9926c24abddf22814",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var circleConfiguration = {\n  id:\"KonyOffice\",\n  centerLocation: {\n    lat:\"17.4469390\",\n  \tlon:\"78.3741190\"\n  },\n  radius: 5,\n  navigateAndZoom: true,\n  showCenterPin: false,\n  circleConfig:{\n\t  lineColor:\"FF0000FF\",\n\t  fillColor:\"FF0000FF\",\n\t  lineWidth:5\n  }\n};\n\nfrmMap.map.addCircle(circleConfiguration);\nfrmMap.show();\n",
+            "parentId": "IF_CONDITION__78d57448373f4a3886bf0fe0fc1cf578",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__0f0c0b6d7090421483a9a363b3cb95b2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function searchAndDrawRoutes ()\n{\n\tvar searchCriteria = {\n      \t\t\t\t\t\torigin:{\"address\":\"Newark\"},\n      \t\t\t\t\t\tdestination:{\"address\":\"Edison\"},\n      \t\t\t\t\t\ttransportMode:\"driving\",\n      \t\t\t\t\t\tdirectionServiceUrl:\"https://maps.googleapis.com/maps/api/directions/json\",\n      \t\t\t\t\t\tapiKey:\"AIzaSyDPcS_2MrXbXIATIXQ7OrUZXAHCnLdikz0\"\n    \t\t\t\t\t};\n\tkony.map.searchRoutes(searchCriteria, successCallback, failureCallback);\n}\n\nfunction successCallback (route)\n{\n    var drawRoute = \n    {\n      id: \"route\", startLocation:{lat:route[0][\"startLocation\"][\"lat\"],lon:route[0][\"startLocation\"][\"lon\"]},\n      endLocation:{lat:route[0][\"endLocation\"][\"lat\"],lon:route[0][\"endLocation\"][\"lon\"]},\n      locations:route[0][\"polylinePoints\"],\n      polylineConfig:{lineColor:\"0x0000ffff\", lineWidth:\"2\"}\n    };\n  frmMap.map.addPolyline (drawRoute);\n  frmMap.show();\n\n  kony.print (\" ********** \"+JSON.stringify(route));\n}\n\nfunction failureCallback (error)\n{\n  alert (JSON.stringify(error));  \n  kony.print (\" ********** \"+JSON.stringify(error));  \n}\n\nsearchAndDrawRoutes ();",
+            "parentId": "IF_CONDITION__ae1abbd6a46a4573816a332225d1554c",
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__d53bab2f39c04fb7868fe11b041569c6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmDashboard.show();",
+            "parentId": "IF_CONDITION__2c660bf1ad5b4ef78d4bfd6597c0fc31",
+            "callbackType": null
+        }]
+    }
+}

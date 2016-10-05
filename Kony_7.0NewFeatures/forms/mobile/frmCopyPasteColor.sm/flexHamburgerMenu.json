@@ -1,0 +1,55 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6a6e4341acd4587ab35e918a42d73e5",
+    "_srcKuid_": "m43a4d9a0b654d18a4beeb163b4d274a",
+    "areFlexPropsReferenced": true,
+    "areflexpropsreferenced": true,
+    "canUpdateUI": true,
+    "channel": "mobile",
+    "children": [
+        "segHamburgerMenu"
+    ],
+    "context": {},
+    "dataDiffs": {
+        "id": "flexHamburgerMenu"
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "100%",
+    "id": "flexHamburgerMenu",
+    "instanceOf": "m43a4d9a0b654d18a4beeb163b4d274a",
+    "isDataReferenced": true,
+    "isVisible": true,
+    "isdatareferenced": true,
+    "isvisible": true,
+    "kuid": "mfe2a61a008b46e5a177580796259133",
+    "layoutType": 4,
+    "layouttype": 4,
+    "left": "-100%",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.FlexContainer",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "frmCopyPasteColor",
+    "pf": "frmCopyPasteColor",
+    "skin": "s6a6e4341acd4587ab35e918a42d73e5",
+    "top": "0dp",
+    "wType": "FlexContainer",
+    "width": "75%"
+}

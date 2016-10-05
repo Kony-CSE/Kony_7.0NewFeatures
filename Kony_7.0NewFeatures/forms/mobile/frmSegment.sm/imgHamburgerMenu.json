@@ -1,0 +1,73 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "_srcKuid_": "4830bd0974954617af44f528e6079321",
+    "canUpdateUI": true,
+    "centerY": "50%",
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "45dp"
+        },
+        "id": "imgHamburgerMenu",
+        "left": {
+            "type": "string",
+            "value": "10dp"
+        },
+        "src": "menu.png",
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "40dp"
+        }
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "45dp",
+    "id": "imgHamburgerMenu",
+    "ide_onTouchEnd": "AS_Image_40640c122c354ec0bfafcc94263d26f8",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "instanceOf": "4830bd0974954617af44f528e6079321",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "m476f28a01f14998bb0a4240cbcc7044",
+    "left": "10dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "onTouchEnd": "AS_Image_40640c122c354ec0bfafcc94263d26f8",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexHeader",
+    "pf": "frmSegment",
+    "skin": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "src": "menu.png",
+    "top": "0dp",
+    "wType": "Image",
+    "width": "40dp"
+}

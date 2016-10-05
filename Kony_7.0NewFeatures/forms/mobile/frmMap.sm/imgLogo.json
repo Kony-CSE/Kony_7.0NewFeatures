@@ -1,0 +1,78 @@
+{
+    "__parentReadjusting__": false,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "_srcKuid_": "9faf41eaba1a467cba7a754de7f52a60",
+    "canUpdateUI": true,
+    "centerX": "50%",
+    "centerY": "50%",
+    "channel": "mobile",
+    "context": {},
+    "dataDiffs": {
+        "centerX": {
+            "type": "string",
+            "value": "50%"
+        },
+        "centerY": {
+            "type": "string",
+            "value": "50%"
+        },
+        "height": {
+            "type": "string",
+            "value": "35dp"
+        },
+        "id": "imgLogo",
+        "left": {
+            "type": "string",
+            "value": "157dp"
+        },
+        "src": "konylogo.png",
+        "top": {
+            "type": "string",
+            "value": "0dp"
+        },
+        "width": {
+            "type": "string",
+            "value": "100dp"
+        },
+        "zIndex": 1
+    },
+    "date": null,
+    "dateComponents": null,
+    "height": "35dp",
+    "id": "imgLogo",
+    "imageScaleMode": 1,
+    "imagescalemode": 1,
+    "instanceOf": "9faf41eaba1a467cba7a754de7f52a60",
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "m81e154e47104c758e39a1be0618cf87",
+    "left": "157dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterInstance": true,
+    "name": "kony.ui.Image2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flexHeader",
+    "pf": "frmMap",
+    "skin": "s8dc2f36997742b29e5893ea0b5ae8a8",
+    "src": "konylogo.png",
+    "top": "0dp",
+    "wType": "Image",
+    "width": "100dp",
+    "zIndex": 1
+}

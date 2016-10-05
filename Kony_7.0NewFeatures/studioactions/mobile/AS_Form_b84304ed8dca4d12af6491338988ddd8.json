@@ -1,0 +1,23 @@
+{
+    "AS_Form_b84304ed8dca4d12af6491338988ddd8": {
+        "id": "AS_Form_b84304ed8dca4d12af6491338988ddd8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAppCanvasFocus",
+            "type": "forms",
+            "platform": null,
+            "KUID": "36dd4652f8764e81a56fb8103ba8aa54"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__becd3390266e48d8b3cb3144ad3aaf5e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmAppCanvasFocus.video.setSource({\"mp4\":\"media10\"});",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

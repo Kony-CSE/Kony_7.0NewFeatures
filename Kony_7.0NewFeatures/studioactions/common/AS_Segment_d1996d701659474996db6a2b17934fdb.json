@@ -1,0 +1,30 @@
+{
+    "AS_Segment_d1996d701659474996db6a2b17934fdb": {
+        "id": "AS_Segment_d1996d701659474996db6a2b17934fdb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "masterHamburgerMenu",
+            "type": "masters",
+            "KUID": "507619e5e9bc4ab494dec0dadec0bc0c"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___b7cd032e068049b78ab3b02f2d579ddc",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "closeHamburgerMenu",
+            "display": "closeHamburgerMenu",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
